@@ -62,3 +62,16 @@ A Windows defense evasion simulation was performed using PowerShell to clear Win
 
 ```powershell
 Clear-EventLog -LogName Security
+
+### Detection Results
+- **Rule ID:** `63103`
+- **Severity Level:** `5`
+- **Alert Description:** `Audit log was cleared`
+
+### Skills Demonstrated
+- Windows telemetry analysis
+- PowerShell security monitoring
+- SIEM alert investigation
+- Defense evasion detection
+
+---
