@@ -58,32 +58,23 @@ Multiple failed authentication attempts were intentionally generated on the Ubun
 
 A Windows defense evasion simulation was performed using PowerShell to clear Windows Security Event Logs.
 
-### Command Used
 
 ```powershell
 Clear-EventLog -LogName Security
 
-### Detection Results
-- **Rule ID:** `63103`
-- **Severity Level:** `12+'
-- **Alert Description:** `Audit log was cleared`
-
-### Skills Demonstrated
-- Windows telemetry analysis
-- PowerShell security monitoring
-- SIEM alert investigation
-- Defense evasion detection
-
----
+#Detection Results
+Rule ID: 63103
+Severity Level: 5
+Alert Description: Audit log was cleared
 🎯 Project Outcome
 
-Successfully deployed a Wazuh SIEM environment capable of:
+Successfully deployed a functional Wazuh SIEM environment capable of:
 
 Monitoring Linux and Windows systems
-Detecting failed authentication attempts
+Detecting suspicious login attempts
 Detecting audit log clearing activities
-Performing real-time threat analysis
-Investigating security alerts through threat hunting workflows
+Performing real-time security event analysis
+Investigating alerts using threat hunting techniques
 📌 Author
 
 Nagatejaswini Saparay
