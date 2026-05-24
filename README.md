@@ -75,3 +75,17 @@ Clear-EventLog -LogName Security
 - Defense evasion detection
 
 ---
+🎯 Project Outcome
+
+Successfully deployed a Wazuh SIEM environment capable of:
+
+Monitoring Linux and Windows systems
+Detecting failed authentication attempts
+Detecting audit log clearing activities
+Performing real-time threat analysis
+Investigating security alerts through threat hunting workflows
+📌 Author
+
+Nagatejaswini Saparay
+
+Aspiring Cybersecurity & SOC Analyst focused on SIEM, Threat Detection, Telemetry Engineering, and Blue Team Operations.
