@@ -65,7 +65,7 @@ Clear-EventLog -LogName Security
 
 ### Detection Results
 - **Rule ID:** `63103`
-- **Severity Level:** `5`
+- **Severity Level:** `12+'
 - **Alert Description:** `Audit log was cleared`
 
 ### Skills Demonstrated
