@@ -57,8 +57,8 @@ Multiple failed authentication attempts were intentionally generated on the Ubun
 ## 2️⃣ Windows Event Log Clearing Detection
 
 A Windows defense evasion simulation was performed using PowerShell to clear Windows Security Event Logs.
-
-
+ 
+Command Used
 ```powershell
 Clear-EventLog -LogName Security
 
